@@ -110,7 +110,7 @@ fadeInTimeline
     .add(fadeInTo);
 new ScrollMagic.Scene({
         triggerElement: "#slidein3",
-        offset: 1100,
+        offset: 700,
     })
     .setTween(fadeInTimeline)
     .duration(1000)
