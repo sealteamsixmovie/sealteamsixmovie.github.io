@@ -73,12 +73,14 @@ new ScrollMagic.Scene({
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);   
 
+
+
     // Fade in
 var fadeInTimeline = new TimelineMax();
-var fadeInFrom = TweenMax.from("#opacity", 1, {
+var fadeInFrom = TweenMax.from("#opacity2", 1, {
     autoAlpha: 0
 });
-var fadeInTo = TweenMax.to("#opacity", 1, {
+var fadeInTo = TweenMax.to("#opacity2", 1, {
     autoAlpha: 1
 });
 fadeInTimeline
@@ -86,7 +88,7 @@ fadeInTimeline
     .add(fadeInTo);
  
 new ScrollMagic.Scene({
-        triggerElement: "#slidein2",
+        triggerElement: "#slidein3",
         offset: 125,
     })
     .setTween(fadeInTimeline)
