@@ -21,7 +21,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
         triggerElement: "#slidein2",
-        offset: 1100,
+        offset: 700,
     })
     .setTween(fromLeftTimeline)
     .duration(600)
@@ -65,7 +65,7 @@ fromBottomTimeline
  
 new ScrollMagic.Scene({
         triggerElement: "#slidein2",
-        offset: 200,
+        offset: 800,
     })
     .setTween(fromBottomTimeline)
     .duration(400)
@@ -87,10 +87,10 @@ fadeInTimeline
  
 new ScrollMagic.Scene({
         triggerElement: "#slidein2",
-        offset: 300,
+        offset: 125,
     })
     .setTween(fadeInTimeline)
-    .duration(800)
+    .duration(300)
     //    .reverse(false)
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
@@ -108,7 +108,7 @@ fadeInTimeline
     .add(fadeInTo);
 new ScrollMagic.Scene({
         triggerElement: "#slidein3",
-        offset: 1500,
+        offset: 1100,
     })
     .setTween(fadeInTimeline)
     .duration(1000)
