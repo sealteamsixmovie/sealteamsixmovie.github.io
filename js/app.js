@@ -6,8 +6,8 @@
     // build scene
     new ScrollMagic.Scene({
                         triggerElement: "#trigger1",
-                        triggerHook: 0.7, // show, when scrolled 20% into view
-                        duration: "60%", // hide 10% before exiting view (60% + 40% from bottom)
+                        triggerHook: 0.7, // show, when scrolled 30% into view
+                        duration: "80%", 
                         offset: 50 // move trigger to center of element
                     })
                     .setClassToggle("#reveal1", "visible") // add class to reveal
