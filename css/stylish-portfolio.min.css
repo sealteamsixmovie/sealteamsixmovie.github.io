@@ -44,7 +44,7 @@
 
 /*LOADING SCREEN*/
 .pre-loader {
-    background: linear-gradient(to right, rgba(115,194,251,0), rgba(115,194,251,1));
+    background-color: #73c2fb;
     position: fixed;
     height: 100%;
     width: 100%;
