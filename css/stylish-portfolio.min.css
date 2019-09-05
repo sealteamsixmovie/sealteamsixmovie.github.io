@@ -181,3 +181,45 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 	.digit:nth-child(6) {
 		margin-top: 250px;
 	}
+	.digit:nth-child(7) {
+		margin-top: 350px;
+	}
+	.digit:nth-child(8) {
+		margin-top: 400px;
+	}
+	.digit:nth-child(9) {
+		margin-top: 450px;
+	}
+	.digit:nth-child(10) {
+		margin-top: 500px;
+	}
+	.digit:nth-child(11) {
+		margin-top: 550px;
+	}
+	.digit:nth-child(12) {
+		margin-top: 600px;
+	}
+	.digit:nth-child(13) {
+		margin-top: 650px;
+	}
+	.digit:nth-child(14) {
+		margin-top: 700px;
+	}
+	.digit:nth-child(15) {
+		margin-top: 750px;
+	}
+	.digit:nth-child(16) {
+		margin-top: 800px;
+	}
+	.digit:nth-child(17) {
+		margin-top: 850px;
+	}
+	.digit:nth-child(18) {
+		margin-top: 900px;
+	}
+	.digit:nth-child(19) {
+		margin-top: 950px;
+	}
+	.digit:nth-child(20) {
+		margin-top: 1000px;
+	}
