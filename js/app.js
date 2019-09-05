@@ -30,3 +30,33 @@
                     //.addIndicators() // add indicators (requires plugin)
                     .addTo(controller);
 
+
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    // build tween
+    var tween = TweenMax.to("#animate", 0.5, {scale: 1.5, repeat: 1, yoyo: true});
+
+    // build scene and set duration to window height
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%"})
+                    .setTween(tween)
+                    //.addIndicators() // add indicators (requires plugin)
+                    .addTo(controller);
+
+
+
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+        // build scenes
+        var revealElements = document.getElementsByClassName("digit");
+        for (var i=0; i<revealElements.length; i++) { // create a scene for each element
+            new ScrollMagic.Scene({
+                                triggerElement: revealElements[i], // y value not modified, so we can use element as trigger as well
+                                offset: 50,                                              // start a little later
+                                triggerHook: 0.7,
+                            })
+                            .setClassToggle(revealElements[i], "visible") // add class toggle
+                            //.addIndicators({name: "digit " + (i+1) }) // add indicators (requires plugin)
+                            .addTo(controller);
+        }
