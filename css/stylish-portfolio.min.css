@@ -178,3 +178,6 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 	.digit:nth-child(5) {
 		margin-top: 200px;
 	}
+	.digit:nth-child(6) {
+		margin-top: 250px;
+	}
