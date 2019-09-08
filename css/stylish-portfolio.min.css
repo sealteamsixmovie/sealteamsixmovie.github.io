@@ -61,11 +61,27 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 }
 
 .bg-teal {
-	background-color: rgba(0, 128, 128, .8)
+	background-color: rgba(0, 128, 128, 1)
 }
 
 .bg-red {
 	background-color: rgba(227, 93, 106, .8)
+}
+
+.bg-dark-blue {
+	background-color: rgba(0, 35, 102, 1)
+}
+
+.bg-indigo-blue {
+	background-color: rgba(57, 9, 153, 1)
+}
+
+.bg-blue {
+	background-color: rgba(31, 31, 161, 1)
+}
+
+.bg-dark-purple {
+	background-color: rgba(42, 0, 71, 1)
 }
 
 /*LOADING SCREEN*/
@@ -222,4 +238,10 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 	}
 	.digit:nth-child(20) {
 		margin-top: 1000px;
+	}
+	.digit:nth-child(21) {
+		margin-top: 1050px;
+	}
+	.digit:nth-child(22) {
+		margin-top: 1100px;
 	}
