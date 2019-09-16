@@ -58,7 +58,7 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 }
 
 .bg-aqua {
-	background-color: rgba(0, 255, 255, .8)
+	background-color: rgba(0, 255, 255, 1)
 }
 
 .bg-teal {
@@ -255,3 +255,4 @@ background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(161,172,230,1) 42%,
 	.digit:nth-child(25) {
 		margin-top: 1250px;
 	}
+
